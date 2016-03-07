@@ -2,7 +2,7 @@
 
 ![Time/Duration Field](https://cloud.githubusercontent.com/assets/10276932/13558648/cfe5cca0-e45c-11e5-961f-09c96514d2b9.png)
 
-*This is a proof of concept, designed the demonstrate a possible solution to
+*This is a proof of concept, designed to demonstrate a possible solution to
 initial requirements, which was used to gain feedback and drive actual
 development*
 
@@ -13,17 +13,17 @@ that the pre-existing system had, if not exceed it.
 
 The field needed to provide:
 
-* Formatted in `hh:mm a` or `HH:mm`
+* Formatting in `hh:mm a` or `HH:mm`
 * Real time validation
   * This would mean limiting what the user could enter based on a series of rules
-including, if set to 12 hour time, if the use typed `1` in the hour field, they
+including, if set to 12 hour time, if the user typed `1` in the hour field, they
 could only enter `0`, `1` or `2`, with simular restrictions on the minutes 
 and seconds fields
 * Simple navigation, moving from the hours portion to the seconds portion when
-the user exceeds the number of digits for the field (ie typing `03` should move 
-the user to the seconds portion with them needing to do anything), they should 
-also be able to arrow key back and forwards like a normal field, moving between
-the different time portions.
+the user exceeds the number of digits for the field (ie typing `03` in the hour portion 
+should move the user to the minutes portion without them needing to do anything), 
+they should also be able to arrow key back and forwards like a normal field, 
+moving between the different time portions.
 
 The implementation also provided
 
