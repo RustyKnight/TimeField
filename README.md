@@ -1,5 +1,11 @@
 #`TimeField` Swing Component
 
+![Time/Duration Field](https://cloud.githubusercontent.com/assets/10276932/13558648/cfe5cca0-e45c-11e5-961f-09c96514d2b9.png)
+
+*This is a proof of concept, designed the demonstrate a possible solution to
+initial requirements, which was used to gain feedback and drive actual
+development*
+
 Some time ago I had a client that was unimpressed with `JFormattedTextField` and
 `JSpinner` when it came to entering in time values.  Coming from a pre-existing
 text based system, they wanted to be able to at least replicate the functionality
