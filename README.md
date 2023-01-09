@@ -1,4 +1,4 @@
-#`TimeField` Swing Component
+# `TimeField` Swing Component
 
 ![Time/Duration Field](https://cloud.githubusercontent.com/assets/10276932/13558648/cfe5cca0-e45c-11e5-961f-09c96514d2b9.png)
 
